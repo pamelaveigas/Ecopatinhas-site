@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Shrikhand Regular";
+    src: url(./fonts/Shrikhand/Shrikhand-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Recursive sans linear bold ";
+    src: url(./fonts/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
+}
+
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --laranja: #FF7900;
+    --laranjinha: #FBA354;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--laranjinha);
+}
+
+/* espaço lateral */
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    height: 185px;
+}
+
+header img {
+    width: 234px;
+}
+
+header .container-grid {
+    height: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu {
+    max-width: 700px;
+    width: 70%;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.banner {
+    background-image: url(./imgs/Banner\ eco.svg);
+    height: 120vh;
+    background-repeat: no-repeat;
+}
+
+.conteudo-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+    margin-top: 66px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    font-family: "Shrikhand", Regular;
+    font-weight: 100;
+
+}
+
+.texto-banner h2 {
+    color: var(--branco);
+    margin-bottom: 0;
+    border-radius: 20px;
+    padding: 20px 40px;
+    /* padding: 15px 35px; */
+    font-size: 120px;
+    font-family: "Shrikhand", Regular;
+    font-weight: 100;
+
+}
+
+
+.container-grid p {
+    color: #000000;
+    font-size: 25px;
+    text-align: justify;
+
+}
+
+.menu a {
+    font-size: 25px;
+    color: var(--branco);
+    font-family: "Recursive sans linear bold ";
+
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+
+    transition: text-decoration 500ms ease;
+}
+
+
+
+
+/*-----------------------------------------------------------SOBRE----------------------------------------------------------------------*/
+
+.sobree {
+
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 12px;
+
+    color: #000;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+}
+
+.sobree:hover,
+.sobree:focus {
+    background-color: var(--laranja);
+
+}
+
+/* CACHORRO 1 */
+.cachorro1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.cachorro1 img {
+    margin-top: 70px;
+}
+
+/* CACHORRO 2 */
+.cachorro2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.cachorro2 img {
+    display: flex;
+    margin-top: 25px;
+
+}
+
+#sobre img {
+    max-width: 460px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+/* #sobre {
+    background: url(./imgs/laranjinhapng.png);
+    height: 975px;
+    width: 1556px;
+} */
+
+
+
+
+
+/*----------------------------------------------------------------- SERVICOS----------------------------------------------------------- */
+
+.brinquedos {
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 175px;
+}
+
+.brinquedos img {
+    max-width: 240px;
+    width: 90%;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.brinquedos p {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Recursive sans linear bold ";
+}
+
+.brinquedos h2 {
+    margin-left: 75px;
+    font-family: "Shrikhand", Regular;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.racao {
+    margin-bottom: 245px;
+}
+
+.racao img {
+    max-width: 190px;
+    width: 90%;
+    border-radius: 30px;
+    margin-left: 75px;
+}
+
+.racao p {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Recursive sans linear bold ";
+}
+
+.racao h2 {
+    margin-inline: 110px;
+    font-family: "Shrikhand", Regular;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.outros {
+    margin-bottom: 200px;
+}
+
+.outros img {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 50px;
+    margin-left: 85px;
+
+}
+
+.outros h2 {
+    margin-left: 130px;
+    font-family: "Shrikhand", Regular;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.outros p {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Recursive sans linear bold ";
+}
+
+
+.serviccos h2 {
+    color: var(--laranja);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 100px;
+
+}
+
+.serviccos h2 {
+    margin-left: 450px;
+    margin-right: 700px;
+    background-color: var(--laranja);
+    padding: 10px 25px;
+    border-radius: 12px;
+    width: 300px;
+    color: var(--branco);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+}
+
+.serviccos h2:hover,
+.serviccos h2:focus {
+    background-color: #000000;
+
+}
+
+.informacoes {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+
+}
+
+/* fundo branco */
+#servicos {
+    background-color: #FFFFFF;
+}
+
+/* --------------------------------------------NOSSOS TRABALHOS-------------------------------------------------- */
+
+
+.NT p {
+    font-size: 25px;
+    font-family: "Recursive sans linear bold";
+    color: #FFFFFF;
+}
+
+.cv1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.cv1 p {
+    font-size: 25px;
+    text-align: left;
+}
+
+.cv2 p {
+    font-size: 25px;
+    text-align: right;
+}
+
+.cv1 img {
+    margin-top: 70px;
+    margin-left: 100px;
+
+}
+
+
+
+.NT {
+    background: url(./imgs/Banner\ 02\ 222.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 222vh;
+}
+
+.NT img {
+    width: 350px;
+    border-radius: 50px;
+
+}
+
+.cv2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 413px;
+    gap: 50px;
+    margin-top: 200px;
+}
+
+.cv2 img {
+    width: 350px;
+    border-radius: 50px;
+    margin-right: 180px;
+}
+
+.nt2 h2 {
+    color: #FF7900;
+
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #ff7600;
+    padding: 8px 20px;
+    border-radius: 12px;
+
+    color: #000;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+}
+
+.nt2 h2:hover,
+.nt2 h2:focus {
+    background-color: #fffdfd;
+
+}
+
+/* aqui */
+/* ---------------------------------------------------------footer----------------------------------------------------------- */
+
+footer {
+    height: 300px;
+}
+
+.roda-pe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CE h2 {
+    font-size: 30px;
+}
+
+.icons h2 {
+    font-size: 30px;
+    display: flex;
+
+}
+
+.barra input {
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+
+}
+
+
+
+
+/* -- */
+
+
+
+/* .btn-enter {
+    background-color: #ff7600;
+    padding: 8px 20px;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+} */
+
+
+
+
+/*.container-grid {
+    background-color: var(--laranjinha);
+    align-items: center;
+    gap: 30px;
+    margin: none;
+}*/
