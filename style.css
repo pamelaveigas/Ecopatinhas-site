@@ -385,7 +385,7 @@ h2 {
 
 }
 
-/* aqui */
+
 /* ---------------------------------------------------------footer----------------------------------------------------------- */
 
 footer {
@@ -407,12 +407,13 @@ footer {
 
 .CE h2 {
     font-size: 30px;
+    margin-left: 130px;
 }
 
 .icons h2 {
     font-size: 30px;
     display: flex;
-
+    margin-bottom: 30px;
 }
 
 .barra input {
@@ -422,7 +423,38 @@ footer {
 
 }
 
+.icons {
+    margin-top: 80px;
+}
 
+.CE {
+    margin-top: 87px;
+}
+
+.icones-redes a {
+    margin-top: 80px;
+
+}
+
+.icons p {
+    margin-top: 20px;
+}
+
+/* aqui */
+.CE p {
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.CE a {
+    margin-left: 170px;
+
+}
+
+div .icones-redes {
+    margin-left: 50px;
+
+}
 
 
 /* -- */
